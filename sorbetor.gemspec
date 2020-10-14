@@ -25,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sorbet"
 
   spec.add_runtime_dependency "backport"
+  spec.add_runtime_dependency "ffi"
   spec.add_runtime_dependency "observer"
   spec.add_runtime_dependency "parser"
   spec.add_runtime_dependency "rake", "~> 12.0"
